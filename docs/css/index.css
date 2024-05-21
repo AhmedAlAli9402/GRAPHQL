@@ -1,0 +1,208 @@
+.bargraph {
+  float: left;
+  margin-left: 10rem;
+  margin-top: -15.6rem;
+  position: absolute;
+    text{
+      opacity: 0;
+      position: absolute;
+      font-family: 'IBM Plex Sans', sans-serif;
+    fill:rgb(255, 255, 255);
+    font-weight: 800;
+    /* margin-left: 25rem; */
+} 
+.bar rect{
+    fill:rgb(119, 119, 119);
+}
+.bar:hover rect,
+.bar:focus rect {
+  fill:rgb(129, 0, 129);
+  /* position: flex; */
+  transition: 0.5s;
+}
+.bar:hover text,
+.bar:focus text {
+  opacity:1;
+  z-index: 3;
+  position: absolute;
+  transition: 0.2s;
+}
+}
+
+figcaption{
+  color: aliceblue;
+  margin-left: -10rem;
+  font-weight: bolder;
+}
+
+.piechart figcaption {
+  margin-left: 0;
+}
+.loginemail {
+  margin-top: 10rem;
+  margin-left: 6rem;
+}
+
+/* h1 {
+  color:rgb(255, 255, 255)
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  c
+} */
+h4{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: aliceblue;
+}
+
+label {
+  color:rgb(255, 255, 255);
+  font-size:xx-large
+}
+button {
+  color: rgb(73, 1, 73);
+  background-color: rgb(255, 255, 255);
+  border-radius: 13px;
+  padding: 8px;
+  font-size: larger;
+}
+
+button:hover{
+  opacity:0.8;
+  cursor:pointer;
+  background-color:rgb(73, 1, 73);
+  color: aqua;
+  transition: 0.5s;
+}
+
+button:active{
+  opacity:0.8;
+  cursor:pointer;
+  background-color:rgb(73, 1, 73);
+  color: aqua;
+  transition: 0.5s;
+}
+
+input {
+  color:aqua;
+  font-size:xx-large;
+   border-radius: 10px;
+    background-color: rgb(37, 0, 46);
+}
+
+/* .startpage{
+  margin-left: 44rem;
+  inline-size: auto;
+  float: right;
+} */
+.lines{
+float:left;
+margin-top: -12.2rem;
+margin-left: 9.5rem;
+position:absolute;
+  text{
+    fill:aliceblue
+  }
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+    /* margin-left: 4rem; */
+    /* background:  url('01-trame.svg') no-repeat; */
+    background-size: cover;
+    background-color: rgb(37, 0, 46);
+    color: aliceblue;
+    transform: translateZ(0);
+    z-index: 0;
+    text-align-last: center;
+
+  }
+  
+  .graph .labels.x-labels {
+    text-anchor: middle;
+  }
+  
+  .graph .labels.y-labels {
+    text-anchor: end;
+  }
+  
+  
+  .graph {
+    height: 800px;
+    width: 600px;
+  }
+  
+  .graph .grid {
+    stroke: #ccc;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+  }
+  
+  .labels {
+    font-size: 13px;
+  }
+  
+  .label-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill:rgb(73, 1, 73);
+  }
+
+  .data {
+    fill: red;
+    stroke-width: 1; 
+  }
+
+  .right {
+    margin-top: -14rem;
+    margin-right: 8rem;
+    float:right;
+  }
+
+  .pie {
+    width: 300px;
+    background: rgb(87, 87, 87);
+    border-radius: 50%;
+    z-index:1;
+    /* margin-right: 12rem;.'' */
+    /* position: absolute; */
+  }
+
+.auditData {
+      margin-left: 42rem;
+      display: absolute;
+      text-align-last: center;
+    }
+  
+  .pie circle {
+    fill: none;
+    stroke: rgb(87, 87, 87);
+    stroke-width: 32;
+    animation: rotate 1.5s ease-in;
+  }
+
+  @media (max-width:1500px){
+    .bargraph {
+      margin-top: -1rem;
+      margin-left: 0;
+      color:rgb(0, 102, 31)
+    }
+    .lines {
+      margin-top:2.3rem;
+      margin-left: 0;
+    }
+    .right {
+      margin-top: 45rem;
+      margin-left: 3rem;
+      float:left
+    }
+    .auditData {
+      margin-left: 0;
+      margin-top: 86rem;
+    }
+  }
