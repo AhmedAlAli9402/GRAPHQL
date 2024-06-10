@@ -62,6 +62,7 @@ async function Logout(){
     document.getElementById("piechart").innerHTML = ``
     document.getElementById("lines").innerHTML = ``
     document.getElementById("userdata").innerHTML = ``
+    document.getElementById("auditData").innerHTML = ``
     StartPage()
 }
 
